@@ -1,0 +1,11 @@
+<form>
+  <label>Username</label>
+  <input type="text" #usernameInput>
+
+  <label>Password</label>
+  <input type="text" #passwordInput>
+
+  <br><br>
+
+  <button type="button" (click)="login(usernameInput.value, passwordInput.value)">Login</button>
+</form>
